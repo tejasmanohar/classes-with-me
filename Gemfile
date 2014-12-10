@@ -10,7 +10,11 @@ gem 'turbolinks',             '2.5.3'
 gem 'uglifier',               '2.6.0'
 
 group :development, :test do
+  gem 'rspec-rails',          '3.1.0'
+  gem 'web-console',          '2.0.0'
+end
+
+group :development do
   gem 'annotate',             '2.6.5'
   gem 'byebug',               '3.5.1'
-  gem 'web-console',          '2.0.0'
 end
