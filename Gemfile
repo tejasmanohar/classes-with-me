@@ -1,5 +1,8 @@
+ruby '2.1.5'
 source 'https://rubygems.org'
 
+gem 'bootstrap-sass',         '3.3.1.0'
+gem 'bootswatch-rails',       '3.2.4'
 gem 'coffee-rails',           '4.1.0'
 gem 'jbuilder',               '2.2.5'
 gem 'jquery-rails',           '4.0.0'
