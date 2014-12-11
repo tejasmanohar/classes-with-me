@@ -9,6 +9,7 @@ gem 'jquery-rails',           '4.0.0'
 gem 'pg',                     '0.17.1'
 gem 'rails',                  '4.2.0.rc2'
 gem 'sass-rails',             '4.0.5'
+gem 'simple_form',            '3.1.0'
 gem 'turbolinks',             '2.5.3'
 gem 'uglifier',               '2.6.0'
 
