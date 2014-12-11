@@ -1,14 +1,14 @@
 development:   
   adapter: postgresql
   encoding: unicode
-  database: classes-with-me_development
+  database: classes_with_me_development
   pool: 5
   host: localhost
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: ...
+  database: classes_with_me_production
   pool: 5
   username: ...
   password: ...
