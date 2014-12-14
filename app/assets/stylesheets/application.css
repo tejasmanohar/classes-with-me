@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootswatch/darkly/variables";
+@import "bootstrap";
+@import "bootswatch/darkly/bootswatch";
