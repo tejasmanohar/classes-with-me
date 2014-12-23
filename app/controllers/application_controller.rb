@@ -9,6 +9,7 @@ class ApplicationController < ActionController::Base
       redirect_to "http://www.rubyonrails.org"
     else
       @hide_navbar = true
+
       render 'index'
     end
   end
