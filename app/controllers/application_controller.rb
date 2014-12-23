@@ -4,12 +4,11 @@ class ApplicationController < ActionController::Base
 
   helper_method :current_user
 
-  layout false
-
   def index
     if current_user
       redirect_to "http://www.rubyonrails.org"
     else
+      @hide_navbar = true
       render 'index'
     end
   end
