@@ -1,14 +1,16 @@
-development:   
+default: &default
   adapter: postgresql
   encoding: unicode
-  database: classes_with_me_development
   pool: 5
-  host: localhost
+
+development:
+  <<: *default
+  database: classes_with_me_development
+
+test:
+  <<: *default
+  database: classes_with_me_test
 
 production:
-  adapter: postgresql
-  encoding: unicode
+  <<: *default
   database: classes_with_me_production
-  pool: 5
-  username: ...
-  password: ...
