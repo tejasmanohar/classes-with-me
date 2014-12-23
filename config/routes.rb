@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   get '/signout' => 'sessions#destroy', :as => :signout
   get '/auth/failure' => 'sessions#failure'
 
-  resources :profile
+  get '/dashboard' => 'dashboard#index'
 end
