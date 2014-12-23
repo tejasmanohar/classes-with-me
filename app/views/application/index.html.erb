@@ -6,7 +6,7 @@
         <p id="hook" class="animated fadeInDown">Who else is in your class?</p>
         <p id="desc" class="animated fadeInDown">Share your schedule with friends and find classmates. It's free!</p>
         <% unless current_user %>
-          <%= button_to "Sign in with Facebook", "/auth/facebook", :id => "fbLogin",
+          <%= button_to "Login with Facebook", "/auth/facebook", :id => "fbLogin",
             :class => "btn btn-primary animated fadeInDown", :method => :get %>
           <!-- <%= icon('facebook-square', 'Login with Facebook', class: 'fa-lg')%> -->
         <% else %>
