@@ -6,6 +6,8 @@ class ApplicationController < ActionController::Base
 
   def index
     if current_user
+      redirect_to "http://www.rubyonrails.org"
+    else
       render 'index'
     end
   end
