@@ -7,10 +7,6 @@ development:
   <<: *default
   database: classes_with_me_development
 
-test:
-  <<: *default
-  database: classes_with_me_test
-
 production:
   <<: *default
   database: classes_with_me_production
